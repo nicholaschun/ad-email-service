@@ -37,7 +37,6 @@
     "eslint-plugin-import": "^2.13.0",
     "jest": "^23.4.2",
     "node": "8",
-    "nodemon": "^1.18.3",
-    "sinon": "^6.1.4"
+    "nodemon": "^1.18.3"
   }
 }
