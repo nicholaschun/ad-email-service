@@ -4,7 +4,8 @@
   "description": "A generic email service to handle all email transactions independent on any 3rd party email provider/service.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node src/index",
+    "start:dev": "nodemon --exec npm start"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,12 @@
     "hapi": "^17.5.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
-    "node": "8"
+    "node": "8",
+    "nodemon": "^1.18.3"
   }
 }
