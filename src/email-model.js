@@ -7,4 +7,4 @@ class EmailModel {
     }
 }
 
-module.exports = EmailModel;
+export default EmailModel;
