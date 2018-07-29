@@ -1,0 +1,30 @@
+{
+  "name": "ad-email-service",
+  "version": "1.0.0",
+  "description": "A generic email service to handle all email transactions independent on any 3rd party email provider/service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aduwillie/ad-email-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aduwillie/ad-email-service/issues"
+  },
+  "homepage": "https://github.com/aduwillie/ad-email-service#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "hapi": "^17.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "node": "8"
+  }
+}
