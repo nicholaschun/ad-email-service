@@ -1,10 +1,11 @@
 exports.plugin = {
-    pkg: require('../../package.json'), // eslint-disable-line global-require
+    name: 'home',
+    version: '1.0.0',
     register: async (server) => {
         server.route({
             method: 'GET',
             path: '/',
-            handler: () => 'Hello, world!',
+            handler: () => 'Ad-Email Service',
         });
     },
 };
